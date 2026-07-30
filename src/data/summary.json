@@ -1,0 +1,776 @@
+{
+  "grand_total": 4719309.51,
+  "grand_qtde": 237,
+  "n_vendedores": 9,
+  "ticket_medio_geral": 19912.7,
+  "vendedores": [
+    {
+      "nome": "Priscila Marcolino",
+      "qtde": 64,
+      "equip": 1102600.13,
+      "oper": 137100.0,
+      "total": 1239700.13,
+      "pct": 26.3,
+      "ticket": 19370.31
+    },
+    {
+      "nome": "Thawani Turetta Serra Ferreira",
+      "qtde": 51,
+      "equip": 1005111.0,
+      "oper": 148250.0,
+      "total": 1153361.0,
+      "pct": 24.4,
+      "ticket": 22614.92
+    },
+    {
+      "nome": "Deise Oliveira Sousa",
+      "qtde": 56,
+      "equip": 865215.0,
+      "oper": 86750.0,
+      "total": 951965.0,
+      "pct": 20.2,
+      "ticket": 16999.38
+    },
+    {
+      "nome": "Elaine De Oliveira Ferreira",
+      "qtde": 48,
+      "equip": 897233.38,
+      "oper": 30200.0,
+      "total": 927433.38,
+      "pct": 19.7,
+      "ticket": 19321.53
+    },
+    {
+      "nome": "Kenny Feijo",
+      "qtde": 9,
+      "equip": 200300.0,
+      "oper": 11000.0,
+      "total": 211300.0,
+      "pct": 4.5,
+      "ticket": 23477.78
+    },
+    {
+      "nome": "Jeniffer Gonçalo da Silva",
+      "qtde": 3,
+      "equip": 76200.0,
+      "oper": 0.0,
+      "total": 76200.0,
+      "pct": 1.6,
+      "ticket": 25400.0
+    },
+    {
+      "nome": "Daniel Yago Armond",
+      "qtde": 3,
+      "equip": 64450.0,
+      "oper": 0.0,
+      "total": 64450.0,
+      "pct": 1.4,
+      "ticket": 21483.33
+    },
+    {
+      "nome": "Natalia Martimiano",
+      "qtde": 2,
+      "equip": 49900.0,
+      "oper": 3000.0,
+      "total": 52900.0,
+      "pct": 1.1,
+      "ticket": 26450.0
+    },
+    {
+      "nome": "Michel da Silveira Gonçalves",
+      "qtde": 1,
+      "equip": 31500.0,
+      "oper": 10500.0,
+      "total": 42000.0,
+      "pct": 0.9,
+      "ticket": 42000.0
+    }
+  ],
+  "categorias": [
+    "MANIPULADOR TELESCÓPICO",
+    "MANIPULADOR TELESCÓPICO ROTATIVO",
+    "PLATAFORMA ARTIC. COMBUSTAO",
+    "PLATAFORMA ARTIC. ELETRICA",
+    "PLATAFORMA TESOURA ELETRICA",
+    "RETROESCAVADEIRA"
+  ],
+  "vendedor_categoria": [
+    {
+      "nome": "Priscila Marcolino",
+      "valores": [
+        991900.13,
+        93000.0,
+        49500.0,
+        31000.0,
+        65300.0,
+        9000.0
+      ],
+      "qtds": [
+        38,
+        2,
+        4,
+        2,
+        17,
+        1
+      ]
+    },
+    {
+      "nome": "Thawani Turetta Serra Ferreira",
+      "valores": [
+        771900.0,
+        103000.0,
+        77700.0,
+        80900.0,
+        32861.0,
+        87000.0
+      ],
+      "qtds": [
+        24,
+        2,
+        4,
+        9,
+        6,
+        6
+      ]
+    },
+    {
+      "nome": "Deise Oliveira Sousa",
+      "valores": [
+        641350.0,
+        48000.0,
+        85450.0,
+        86600.0,
+        90565.0,
+        0
+      ],
+      "qtds": [
+        21,
+        1,
+        6,
+        7,
+        21,
+        0
+      ]
+    },
+    {
+      "nome": "Elaine De Oliveira Ferreira",
+      "valores": [
+        762200.05,
+        0,
+        39000.0,
+        44000.0,
+        82233.33,
+        0
+      ],
+      "qtds": [
+        28,
+        0,
+        3,
+        4,
+        13,
+        0
+      ]
+    },
+    {
+      "nome": "Kenny Feijo",
+      "valores": [
+        91500.0,
+        0,
+        116200.0,
+        0,
+        3600.0,
+        0
+      ],
+      "qtds": [
+        3,
+        0,
+        5,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "nome": "Jeniffer Gonçalo da Silva",
+      "valores": [
+        60000.0,
+        0,
+        0,
+        16200.0,
+        0,
+        0
+      ],
+      "qtds": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Daniel Yago Armond",
+      "valores": [
+        64450.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Natalia Martimiano",
+      "valores": [
+        52900.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Michel da Silveira Gonçalves",
+      "valores": [
+        42000.0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "regioes": [
+    {
+      "nome": "Sudeste",
+      "qtde": 179,
+      "total": 3160469.47,
+      "pct": 67.0
+    },
+    {
+      "nome": "Centro-Oeste",
+      "qtde": 36,
+      "total": 927750.04,
+      "pct": 19.7
+    },
+    {
+      "nome": "Nordeste",
+      "qtde": 16,
+      "total": 461200.0,
+      "pct": 9.8
+    },
+    {
+      "nome": "Sul",
+      "qtde": 6,
+      "total": 169890.0,
+      "pct": 3.6
+    }
+  ],
+  "estados": [
+    {
+      "uf": "SP",
+      "regiao": "Sudeste",
+      "qtde": 157,
+      "total": 2623419.36,
+      "pct": 55.6
+    },
+    {
+      "uf": "MS",
+      "regiao": "Centro-Oeste",
+      "qtde": 32,
+      "total": 842750.04,
+      "pct": 17.9
+    },
+    {
+      "uf": "MG",
+      "regiao": "Sudeste",
+      "qtde": 12,
+      "total": 318850.0,
+      "pct": 6.8
+    },
+    {
+      "uf": "RJ",
+      "regiao": "Sudeste",
+      "qtde": 10,
+      "total": 218200.11,
+      "pct": 4.6
+    },
+    {
+      "uf": "CE",
+      "regiao": "Nordeste",
+      "qtde": 8,
+      "total": 183200.0,
+      "pct": 3.9
+    },
+    {
+      "uf": "BA",
+      "regiao": "Nordeste",
+      "qtde": 4,
+      "total": 166000.0,
+      "pct": 3.5
+    },
+    {
+      "uf": "PR",
+      "regiao": "Sul",
+      "qtde": 4,
+      "total": 147900.0,
+      "pct": 3.1
+    },
+    {
+      "uf": "RN",
+      "regiao": "Nordeste",
+      "qtde": 4,
+      "total": 112000.0,
+      "pct": 2.4
+    },
+    {
+      "uf": "MT",
+      "regiao": "Centro-Oeste",
+      "qtde": 4,
+      "total": 85000.0,
+      "pct": 1.8
+    },
+    {
+      "uf": "SC",
+      "regiao": "Sul",
+      "qtde": 2,
+      "total": 21990.0,
+      "pct": 0.5
+    }
+  ],
+  "cidades": [
+    {
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "qtde": 92,
+      "total": 1665044.35,
+      "pct": 35.3
+    },
+    {
+      "cidade": "Inocência",
+      "uf": "MS",
+      "qtde": 29,
+      "total": 764850.04,
+      "pct": 16.2
+    },
+    {
+      "cidade": "Luís Gomes",
+      "uf": "RN",
+      "qtde": 4,
+      "total": 112000.0,
+      "pct": 2.4
+    },
+    {
+      "cidade": "Sorocaba",
+      "uf": "SP",
+      "qtde": 7,
+      "total": 105300.01,
+      "pct": 2.2
+    },
+    {
+      "cidade": "Milagres",
+      "uf": "CE",
+      "qtde": 4,
+      "total": 99200.0,
+      "pct": 2.1
+    },
+    {
+      "cidade": "Jaguarari",
+      "uf": "BA",
+      "qtde": 2,
+      "total": 87500.0,
+      "pct": 1.9
+    },
+    {
+      "cidade": "Betim",
+      "uf": "MG",
+      "qtde": 2,
+      "total": 84500.0,
+      "pct": 1.8
+    },
+    {
+      "cidade": "Botucatu",
+      "uf": "SP",
+      "qtde": 11,
+      "total": 84000.0,
+      "pct": 1.8
+    },
+    {
+      "cidade": "Volta Redonda",
+      "uf": "RJ",
+      "qtde": 3,
+      "total": 81000.0,
+      "pct": 1.7
+    },
+    {
+      "cidade": "Piracicaba",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 62100.0,
+      "pct": 1.3
+    },
+    {
+      "cidade": "Santana de Parnaíba",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 62000.0,
+      "pct": 1.3
+    },
+    {
+      "cidade": "Ouro Preto",
+      "uf": "MG",
+      "qtde": 2,
+      "total": 60000.0,
+      "pct": 1.3
+    },
+    {
+      "cidade": "Bauru",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 58000.0,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Lucas do Rio Verde",
+      "uf": "MT",
+      "qtde": 3,
+      "total": 56000.0,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Osasco",
+      "uf": "SP",
+      "qtde": 11,
+      "total": 54875.0,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Leme",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 54500.0,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "qtde": 3,
+      "total": 54000.1,
+      "pct": 1.1
+    },
+    {
+      "cidade": "Foz do Iguaçu",
+      "uf": "PR",
+      "qtde": 1,
+      "total": 53000.0,
+      "pct": 1.1
+    },
+    {
+      "cidade": "Ribas do Rio Pardo",
+      "uf": "MS",
+      "qtde": 2,
+      "total": 52900.0,
+      "pct": 1.1
+    },
+    {
+      "cidade": "Barueri",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 51900.0,
+      "pct": 1.1
+    },
+    {
+      "cidade": "Fortaleza",
+      "uf": "CE",
+      "qtde": 2,
+      "total": 48000.0,
+      "pct": 1.0
+    },
+    {
+      "cidade": "Maringá",
+      "uf": "PR",
+      "qtde": 1,
+      "total": 48000.0,
+      "pct": 1.0
+    },
+    {
+      "cidade": "Curaça",
+      "uf": "BA",
+      "qtde": 1,
+      "total": 47500.0,
+      "pct": 1.0
+    },
+    {
+      "cidade": "Itatiaiuçu",
+      "uf": "MG",
+      "qtde": 1,
+      "total": 46500.0,
+      "pct": 1.0
+    },
+    {
+      "cidade": "Pindamonhangaba",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 42000.0,
+      "pct": 0.9
+    },
+    {
+      "cidade": "Guarulhos",
+      "uf": "SP",
+      "qtde": 7,
+      "total": 40300.0,
+      "pct": 0.9
+    },
+    {
+      "cidade": "Ubatuba",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 37500.0,
+      "pct": 0.8
+    },
+    {
+      "cidade": "Salto",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 36800.0,
+      "pct": 0.8
+    },
+    {
+      "cidade": "Eusébio",
+      "uf": "CE",
+      "qtde": 2,
+      "total": 36000.0,
+      "pct": 0.8
+    },
+    {
+      "cidade": "Monte Sião",
+      "uf": "MG",
+      "qtde": 1,
+      "total": 36000.0,
+      "pct": 0.8
+    },
+    {
+      "cidade": "São João da Boa Vista",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 35500.0,
+      "pct": 0.8
+    },
+    {
+      "cidade": "Holambra",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 35000.0,
+      "pct": 0.7
+    },
+    {
+      "cidade": "Araras",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 34000.0,
+      "pct": 0.7
+    },
+    {
+      "cidade": "Extrema",
+      "uf": "MG",
+      "qtde": 4,
+      "total": 33350.0,
+      "pct": 0.7
+    },
+    {
+      "cidade": "Salvador",
+      "uf": "BA",
+      "qtde": 1,
+      "total": 31000.0,
+      "pct": 0.7
+    },
+    {
+      "cidade": "Buritizeiro",
+      "uf": "MG",
+      "qtde": 1,
+      "total": 30500.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Contenda",
+      "uf": "PR",
+      "qtde": 1,
+      "total": 29900.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Sinop",
+      "uf": "MT",
+      "qtde": 1,
+      "total": 29000.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Paracambi",
+      "uf": "RJ",
+      "qtde": 2,
+      "total": 28600.01,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Angra dos Reis",
+      "uf": "RJ",
+      "qtde": 1,
+      "total": 28600.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Congonhas",
+      "uf": "MG",
+      "qtde": 1,
+      "total": 28000.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Petrópolis",
+      "uf": "RJ",
+      "qtde": 1,
+      "total": 26000.0,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Campo Grande",
+      "uf": "MS",
+      "qtde": 1,
+      "total": 25000.0,
+      "pct": 0.5
+    },
+    {
+      "cidade": "Campinas",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 24500.0,
+      "pct": 0.5
+    },
+    {
+      "cidade": "Itupeva",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 23000.0,
+      "pct": 0.5
+    },
+    {
+      "cidade": "São Carlos",
+      "uf": "SC",
+      "qtde": 2,
+      "total": 21990.0,
+      "pct": 0.5
+    },
+    {
+      "cidade": "Araraquara",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 21900.0,
+      "pct": 0.5
+    },
+    {
+      "cidade": "Piratininga",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 20800.0,
+      "pct": 0.4
+    },
+    {
+      "cidade": "Araucária",
+      "uf": "PR",
+      "qtde": 1,
+      "total": 17000.0,
+      "pct": 0.4
+    },
+    {
+      "cidade": "Mauá",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 17000.0,
+      "pct": 0.4
+    },
+    {
+      "cidade": "Indaiatuba",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 12500.0,
+      "pct": 0.3
+    },
+    {
+      "cidade": "Pirapora do Bom Jesus",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 12000.0,
+      "pct": 0.3
+    },
+    {
+      "cidade": "Diadema",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 8700.0,
+      "pct": 0.2
+    },
+    {
+      "cidade": "Cotia",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 6500.0,
+      "pct": 0.1
+    },
+    {
+      "cidade": "São Caetano do Sul",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 6500.0,
+      "pct": 0.1
+    },
+    {
+      "cidade": "Cerqueira César",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 4200.0,
+      "pct": 0.1
+    },
+    {
+      "cidade": "Americana",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 4200.0,
+      "pct": 0.1
+    },
+    {
+      "cidade": "Mairiporã",
+      "uf": "SP",
+      "qtde": 1,
+      "total": 2800.0,
+      "pct": 0.1
+    }
+  ]
+}
