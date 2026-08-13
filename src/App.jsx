@@ -45,7 +45,7 @@ export default function App() {
           </div>
         </div>
         <div className="meta">
-          <div><b>Base:</b> Contratos_atualizados_-_2026.xlsx</div>
+          <div><b>Base:</b> Contratos - 13-08-2026.xlsx</div>
           <div><b>Registros válidos:</b> {summary.grand_qtde} (Nº de série obrigatório)</div>
           <div><b>Cidades:</b> nomes normalizados</div>
         </div>
@@ -82,7 +82,7 @@ export default function App() {
           <b>Metodologia:</b> linhas em branco e sem Nº de série excluídas · faturamento = Equipamentos + Operadores
           (Frete e Adicional não considerados) · cidades com variação de grafia unificadas
         </div>
-        <div><b>Fonte:</b> Contratos_atualizados_-_2026.xlsx — atualizado em 2026</div>
+        <div><b>Fonte:</b> Contratos - 13-08-2026.xlsx — atualizado em 13/08/2026</div>
       </footer>
     </div>
   )
