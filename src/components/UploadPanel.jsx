@@ -29,7 +29,10 @@ export default function UploadPanel({ onDataLoaded, currentMeta }) {
       })
     } catch (e) {
       console.error(e)
-      setStatus({ type: 'error', msg: 'Não foi possível ler o arquivo. Confira se é o .xlsx com as mesmas colunas (Nome do parceiro de negócios, Cód. Contrato, N.Serie, Modelo, Tipo Modelo, Apelido, Valor da Locação, Valor de Serviço, Endereço de Entrega, Vendedor).' })
+      const msg = e instanceof Error && e.message
+        ? e.message
+        : 'Não foi possível ler o arquivo. Confira se é um .xlsx válido.'
+      setStatus({ type: 'error', msg })
     }
   }
 

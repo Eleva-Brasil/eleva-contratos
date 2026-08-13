@@ -47,11 +47,59 @@ function parseEndereco(endereco) {
   return { cidade, estado }
 }
 
+// Aliases aceitos para cada coluna (comparados após normalizar: trim + minúsculas + sem acento).
+// Colunas desconhecidas na planilha (ex.: "Status LOC1") são simplesmente ignoradas —
+// não é preciso que a ordem ou o conjunto de colunas seja idêntico ao original.
+const HEADER_ALIASES = {
+  cliente: ['nome do parceiro de negocios', 'nome do parceiro', 'cliente'],
+  contrato: ['cod. contrato', 'cod contrato', 'contrato'],
+  serie: ['n.serie', 'n serie', 'no serie', 'numero de serie', 'serie'],
+  modelo: ['modelo'],
+  tipoModelo: ['tipo modelo'],
+  apelido: ['apelido'],
+  valorLoc: ['valor da locacao'],
+  valorServ: ['valor de servico'],
+  endereco: ['endereco de entrega', 'endereco'],
+  vendedor: ['vendedor'],
+}
+
+function normalizeHeader(h) {
+  return String(h ?? '')
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+}
+
+function buildColumnIndex(headerRow) {
+  const normalized = headerRow.map(normalizeHeader)
+  const idx = {}
+  const faltando = []
+  for (const [field, aliases] of Object.entries(HEADER_ALIASES)) {
+    const pos = normalized.findIndex((h) => aliases.includes(h))
+    idx[field] = pos // -1 se não encontrada
+  }
+  // Campos indispensáveis para o cálculo do frete
+  for (const field of ['cliente', 'contrato', 'serie', 'valorLoc', 'valorServ', 'endereco', 'vendedor']) {
+    if (idx[field] === -1) faltando.push(field)
+  }
+  if (faltando.length) {
+    throw new Error(
+      `Não encontrei a(s) coluna(s) obrigatória(s) na planilha: ${faltando.join(', ')}. ` +
+      `Confira se os nomes dos cabeçalhos não foram alterados.`
+    )
+  }
+  return idx
+}
+
 /**
- * Recebe um File (input do usuário) apontando para a planilha
- * "Contratos_atualizados_-_2026.xlsx" (mesmas colunas) e devolve
- * { summary, analitica, dadosTratados } no mesmo formato usado
+ * Recebe um File (input do usuário) apontando para a planilha de contratos
+ * e devolve { summary, analitica, dadosTratados } no mesmo formato usado
  * pelos componentes do dashboard.
+ *
+ * As colunas são casadas pelo nome do cabeçalho (não pela posição), então
+ * colunas extras ou fora de ordem não quebram a leitura — só as colunas
+ * obrigatórias (ver HEADER_ALIASES) precisam existir, em qualquer posição.
  */
 export async function parseContractsFile(file) {
   const buf = await file.arrayBuffer()
@@ -60,18 +108,24 @@ export async function parseContractsFile(file) {
   const ws = wb.Sheets[sheetName]
   const rows = XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: '' })
 
-  // primeira linha = cabeçalho; ignora
-  const dataRows = rows.slice(1)
+  const [headerRow, ...dataRows] = rows
+  const col = buildColumnIndex(headerRow)
 
   const records = []
   let excluidasBranco = 0
   let excluidasSemSerie = 0
 
   for (const r of dataRows) {
-    const [
-      cliente, contrato, serie, codModelo, modelo, tipoModelo, apelido,
-      valorLoc, valorServ, endereco, vendedor,
-    ] = r
+    const cliente = r[col.cliente]
+    const contrato = r[col.contrato]
+    const serie = r[col.serie]
+    const modelo = col.modelo !== -1 ? r[col.modelo] : ''
+    const tipoModelo = col.tipoModelo !== -1 ? r[col.tipoModelo] : ''
+    const apelido = col.apelido !== -1 ? r[col.apelido] : ''
+    const valorLoc = r[col.valorLoc]
+    const valorServ = r[col.valorServ]
+    const endereco = r[col.endereco]
+    const vendedor = r[col.vendedor]
 
     const isBlank = [cliente, contrato, vendedor].every((v) => v === '' || v === undefined || v === null)
     if (isBlank) { excluidasBranco++; continue }
