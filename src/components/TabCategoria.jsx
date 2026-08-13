@@ -43,9 +43,13 @@ export default function TabCategoria({ categorias, vendedorCategoria }) {
                       key={i}
                       className={`heat-cell ${v <= 0 ? 'zero' : ''}`}
                       style={v > 0 ? { background: heatColor(v, maxHeat) } : undefined}
-                      title={`${row.qtds[i]} equip.`}
                     >
-                      {v > 0 ? Math.round(v / 1000) : '—'}
+                      {v > 0 ? (
+                        <>
+                          <div className="heat-val">{Math.round(v / 1000)}</div>
+                          <div className="heat-qty">{row.qtds[i]} un</div>
+                        </>
+                      ) : '—'}
                     </td>
                   ))}
                   <td className="num" style={{ fontFamily: 'var(--mono)' }}>{fmtBRL0(rowTotal)}</td>
