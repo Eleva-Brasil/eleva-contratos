@@ -1,80 +1,116 @@
 {
-  "grand_total": 4714088.5,
-  "grand_qtde": 247,
-  "n_vendedores": 9,
-  "ticket_medio_geral": 19085.38,
+  "grand_total": 4662105.03,
+  "grand_qtde": 246,
+  "n_vendedores": 13,
+  "ticket_medio_geral": 18951.65,
   "vendedores": [
     {
       "nome": "Priscila Marcolino",
-      "qtde": 75,
-      "equip": 1311100.12,
-      "oper": 141600,
-      "total": 1452700.12,
-      "pct": 30.8,
-      "ticket": 19369.33
+      "qtde": 69,
+      "equip": 1145600.11,
+      "oper": 158400,
+      "total": 1304000.11,
+      "pct": 28,
+      "ticket": 18898.55
     },
     {
-      "nome": "Thawani Turetta Serra Ferreira",
-      "qtde": 49,
-      "equip": 940600,
-      "oper": 177750,
-      "total": 1118350,
-      "pct": 23.7,
-      "ticket": 22823.47
+      "nome": "Sheila Cristina Dos Santos",
+      "qtde": 38,
+      "equip": 739800.01,
+      "oper": 49650,
+      "total": 789450.01,
+      "pct": 16.9,
+      "ticket": 20775
     },
     {
       "nome": "Deise Oliveira Sousa",
-      "qtde": 57,
-      "equip": 856605,
-      "oper": 81850,
-      "total": 938455,
-      "pct": 19.9,
-      "ticket": 16464.12
+      "qtde": 47,
+      "equip": 594205.01,
+      "oper": 85700,
+      "total": 679905.01,
+      "pct": 14.6,
+      "ticket": 14466.06
     },
     {
       "nome": "Elaine De Oliveira Ferreira",
-      "qtde": 50,
-      "equip": 777733.38,
-      "oper": 19700,
-      "total": 797433.38,
-      "pct": 16.9,
-      "ticket": 15948.67
+      "qtde": 45,
+      "equip": 657733.37,
+      "oper": 15250,
+      "total": 672983.37,
+      "pct": 14.4,
+      "ticket": 14955.19
     },
     {
       "nome": "Kenny Feijo",
-      "qtde": 9,
-      "equip": 200300,
-      "oper": 10500,
-      "total": 210800,
-      "pct": 4.5,
-      "ticket": 23422.22
+      "qtde": 17,
+      "equip": 387500.01,
+      "oper": 15666.5,
+      "total": 403166.51,
+      "pct": 8.6,
+      "ticket": 23715.68
     },
     {
-      "nome": "Michel da Silveira Gonçalves",
-      "qtde": 2,
-      "equip": 59500,
-      "oper": 13500,
-      "total": 73000,
-      "pct": 1.5,
-      "ticket": 36500
+      "nome": "Thawani Turetta Serra Ferreira",
+      "qtde": 14,
+      "equip": 337900.01,
+      "oper": 57000.01,
+      "total": 394900.02,
+      "pct": 8.5,
+      "ticket": 28207.14
     },
     {
-      "nome": "Janaina Fonseca Dias",
-      "qtde": 2,
-      "equip": 60000,
-      "oper": 0,
-      "total": 60000,
-      "pct": 1.3,
-      "ticket": 30000
+      "nome": "Jeniffer Gonçalo da Silva",
+      "qtde": 7,
+      "equip": 169400,
+      "oper": 45000,
+      "total": 214400,
+      "pct": 4.6,
+      "ticket": 30628.57
     },
     {
       "nome": "Daniel Yago Armond",
       "qtde": 2,
-      "equip": 41450,
+      "equip": 48400,
       "oper": 0,
-      "total": 41450,
+      "total": 48400,
+      "pct": 1,
+      "ticket": 24200
+    },
+    {
+      "nome": "-Nenhum vendedor-",
+      "qtde": 3,
+      "equip": 43500,
+      "oper": 0,
+      "total": 43500,
       "pct": 0.9,
-      "ticket": 20725
+      "ticket": 14500
+    },
+    {
+      "nome": "Monica Anaija",
+      "qtde": 1,
+      "equip": 26000,
+      "oper": 10000,
+      "total": 36000,
+      "pct": 0.8,
+      "ticket": 36000
+    },
+    {
+      "nome": "Michel da Silveira Gonçalves",
+      "qtde": 1,
+      "equip": 21000,
+      "oper": 8000,
+      "total": 29000,
+      "pct": 0.6,
+      "ticket": 29000
+    },
+    {
+      "nome": "Thiago Augusto Franca",
+      "qtde": 1,
+      "equip": 24500,
+      "oper": 0,
+      "total": 24500,
+      "pct": 0.5,
+      "ticket": 24500
     },
     {
       "nome": "Natalia Martimiano",
@@ -98,132 +134,132 @@
     {
       "nome": "Priscila Marcolino",
       "valores": [
-        1247100.12,
-        40000,
-        76500,
-        18000,
+        1093200.11,
+        0,
+        89900,
+        25800,
         71100,
-        0
+        24000
       ],
       "qtds": [
-        48,
-        1,
-        6,
-        1,
+        39,
+        0,
+        7,
+        2,
         19,
-        0
+        2
       ]
     },
     {
-      "nome": "Thawani Turetta Serra Ferreira",
+      "nome": "Sheila Cristina Dos Santos",
       "valores": [
-        783100,
-        58000,
-        88600,
-        97100,
-        24550,
-        67000
+        618250.01,
+        0,
+        55000,
+        90600,
+        25600,
+        0
       ],
       "qtds": [
-        23,
-        1,
+        21,
+        0,
+        3,
+        9,
         5,
-        10,
-        5,
-        5
+        0
       ]
     },
     {
       "nome": "Deise Oliveira Sousa",
       "valores": [
-        617250,
+        383700.01,
         48000,
         85450,
-        87890,
-        99865,
+        71840,
+        90915,
         0
       ],
       "qtds": [
-        21,
+        13,
         1,
         6,
-        6,
-        23,
+        5,
+        22,
         0
       ]
     },
     {
       "nome": "Elaine De Oliveira Ferreira",
       "valores": [
-        610700.05,
+        497600.04,
         0,
-        0,
-        44000,
-        142733.33,
+        8000,
+        33000,
+        134383.33,
         0
       ],
       "qtds": [
-        24,
+        20,
         0,
-        0,
-        4,
-        22,
+        1,
+        3,
+        21,
         0
       ]
     },
     {
       "nome": "Kenny Feijo",
       "valores": [
-        91500,
+        264266.51,
         0,
         115700,
+        8700,
         0,
-        3600,
+        14500
+      ],
+      "qtds": [
+        10,
+        0,
+        5,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "nome": "Thawani Turetta Serra Ferreira",
+      "valores": [
+        301500.02,
+        58000,
+        35400,
+        0,
+        0,
         0
       ],
       "qtds": [
-        3,
+        11,
+        1,
+        2,
         0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Jeniffer Gonçalo da Silva",
+      "valores": [
+        185500,
+        0,
+        11900,
+        17000,
+        0,
+        0
+      ],
+      "qtds": [
         5,
         0,
         1,
-        0
-      ]
-    },
-    {
-      "nome": "Michel da Silveira Gonçalves",
-      "valores": [
-        73000,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "qtds": [
-        2,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "nome": "Janaina Fonseca Dias",
-      "valores": [
-        60000,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "qtds": [
-        2,
-        0,
-        0,
-        0,
+        1,
         0,
         0
       ]
@@ -231,7 +267,45 @@
     {
       "nome": "Daniel Yago Armond",
       "valores": [
-        41450,
+        26000,
+        0,
+        22400,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "-Nenhum vendedor-",
+      "valores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        43500
+      ],
+      "qtds": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "nome": "Monica Anaija",
+      "valores": [
+        36000,
         0,
         0,
         0,
@@ -239,7 +313,45 @@
         0
       ],
       "qtds": [
-        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Michel da Silveira Gonçalves",
+      "valores": [
+        29000,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "nome": "Thiago Augusto Franca",
+      "valores": [
+        24500,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "qtds": [
+        1,
         0,
         0,
         0,
@@ -271,56 +383,56 @@
     {
       "nome": "Sudeste",
       "qtde": 194,
-      "total": 3330048.46,
-      "pct": 70.6
+      "total": 3346264.99,
+      "pct": 71.8
     },
     {
       "nome": "Centro-Oeste",
-      "qtde": 33,
-      "total": 864450.04,
-      "pct": 18.3
+      "qtde": 32,
+      "total": 837850.04,
+      "pct": 18
     },
     {
       "nome": "Nordeste",
-      "qtde": 14,
-      "total": 373700,
-      "pct": 7.9
+      "qtde": 12,
+      "total": 295200,
+      "pct": 6.3
     },
     {
       "nome": "Sul",
-      "qtde": 6,
-      "total": 145890,
-      "pct": 3.1
+      "qtde": 8,
+      "total": 182790,
+      "pct": 3.9
     }
   ],
   "estados": [
     {
       "uf": "SP",
       "regiao": "Sudeste",
-      "qtde": 170,
-      "total": 2740708.35,
-      "pct": 58.1
+      "qtde": 172,
+      "total": 2766858.38,
+      "pct": 59.3
     },
     {
       "uf": "MS",
       "regiao": "Centro-Oeste",
-      "qtde": 27,
-      "total": 713950.04,
-      "pct": 15.1
+      "qtde": 28,
+      "total": 752850.04,
+      "pct": 16.1
     },
     {
       "uf": "MG",
       "regiao": "Sudeste",
-      "qtde": 12,
-      "total": 325140,
-      "pct": 6.9
+      "qtde": 11,
+      "total": 338640,
+      "pct": 7.3
     },
     {
       "uf": "RJ",
       "regiao": "Sudeste",
-      "qtde": 10,
-      "total": 218200.11,
-      "pct": 4.6
+      "qtde": 9,
+      "total": 194766.61,
+      "pct": 4.2
     },
     {
       "uf": "CE",
@@ -332,16 +444,9 @@
     {
       "uf": "PR",
       "regiao": "Sul",
-      "qtde": 4,
-      "total": 123900,
-      "pct": 2.6
-    },
-    {
-      "uf": "MT",
-      "regiao": "Centro-Oeste",
       "qtde": 5,
-      "total": 114000,
-      "pct": 2.4
+      "total": 156900,
+      "pct": 3.4
     },
     {
       "uf": "RN",
@@ -351,11 +456,11 @@
       "pct": 2.4
     },
     {
-      "uf": "BA",
-      "regiao": "Nordeste",
-      "qtde": 2,
-      "total": 78500,
-      "pct": 1.7
+      "uf": "MT",
+      "regiao": "Centro-Oeste",
+      "qtde": 4,
+      "total": 85000,
+      "pct": 1.8
     },
     {
       "uf": "ES",
@@ -365,41 +470,41 @@
       "pct": 1
     },
     {
-      "uf": "DF",
-      "regiao": "Centro-Oeste",
-      "qtde": 1,
-      "total": 36500,
-      "pct": 0.8
-    },
-    {
       "uf": "SC",
       "regiao": "Sul",
-      "qtde": 2,
-      "total": 21990,
-      "pct": 0.5
+      "qtde": 3,
+      "total": 25890,
+      "pct": 0.6
     }
   ],
   "cidades": [
     {
       "cidade": "São Paulo",
       "uf": "SP",
-      "qtde": 101,
-      "total": 1699033.34,
-      "pct": 36
+      "qtde": 98,
+      "total": 1719783.34,
+      "pct": 36.9
     },
     {
       "cidade": "Inocência",
       "uf": "MS",
-      "qtde": 24,
-      "total": 636050.04,
-      "pct": 13.5
+      "qtde": 25,
+      "total": 674950.04,
+      "pct": 14.5
+    },
+    {
+      "cidade": "Sorocaba",
+      "uf": "SP",
+      "qtde": 11,
+      "total": 158200.01,
+      "pct": 3.4
     },
     {
       "cidade": "Arujá",
       "uf": "SP",
       "qtde": 4,
       "total": 147200,
-      "pct": 3.1
+      "pct": 3.2
     },
     {
       "cidade": "Luís Gomes",
@@ -409,13 +514,6 @@
       "pct": 2.4
     },
     {
-      "cidade": "Sorocaba",
-      "uf": "SP",
-      "qtde": 7,
-      "total": 105300.01,
-      "pct": 2.2
-    },
-    {
       "cidade": "Milagres",
       "uf": "CE",
       "qtde": 4,
@@ -423,10 +521,10 @@
       "pct": 2.1
     },
     {
-      "cidade": "Santana de Parnaíba",
-      "uf": "SP",
+      "cidade": "Volta Redonda",
+      "uf": "RJ",
       "qtde": 3,
-      "total": 87000,
+      "total": 86166.5,
       "pct": 1.8
     },
     {
@@ -451,18 +549,18 @@
       "pct": 1.8
     },
     {
-      "cidade": "Volta Redonda",
-      "uf": "RJ",
-      "qtde": 3,
-      "total": 81000,
-      "pct": 1.7
+      "cidade": "Contenda",
+      "uf": "PR",
+      "qtde": 2,
+      "total": 62900,
+      "pct": 1.3
     },
     {
       "cidade": "Piracicaba",
       "uf": "SP",
-      "qtde": 3,
-      "total": 74800,
-      "pct": 1.6
+      "qtde": 2,
+      "total": 62100,
+      "pct": 1.3
     },
     {
       "cidade": "Ouro Preto",
@@ -472,10 +570,24 @@
       "pct": 1.3
     },
     {
-      "cidade": "Leme",
+      "cidade": "Bauru",
       "uf": "SP",
       "qtde": 2,
-      "total": 54500,
+      "total": 58000,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Santana de Parnaíba",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 56000,
+      "pct": 1.2
+    },
+    {
+      "cidade": "Leme",
+      "uf": "SP",
+      "qtde": 3,
+      "total": 54500.01,
       "pct": 1.2
     },
     {
@@ -483,13 +595,13 @@
       "uf": "RJ",
       "qtde": 3,
       "total": 54000.1,
-      "pct": 1.1
+      "pct": 1.2
     },
     {
       "cidade": "Osasco",
       "uf": "SP",
       "qtde": 11,
-      "total": 53775,
+      "total": 53425,
       "pct": 1.1
     },
     {
@@ -514,10 +626,10 @@
       "pct": 1
     },
     {
-      "cidade": "Curaça",
-      "uf": "BA",
-      "qtde": 1,
-      "total": 47500,
+      "cidade": "Guarulhos",
+      "uf": "SP",
+      "qtde": 9,
+      "total": 47600.02,
       "pct": 1
     },
     {
@@ -542,38 +654,10 @@
       "pct": 0.9
     },
     {
-      "cidade": "Guarulhos",
-      "uf": "SP",
-      "qtde": 7,
-      "total": 39800,
-      "pct": 0.8
-    },
-    {
-      "cidade": "Extrema",
-      "uf": "MG",
-      "qtde": 4,
-      "total": 39640,
-      "pct": 0.8
-    },
-    {
-      "cidade": "Barueri",
-      "uf": "SP",
-      "qtde": 1,
-      "total": 38900,
-      "pct": 0.8
-    },
-    {
       "cidade": "Ubatuba",
       "uf": "SP",
       "qtde": 1,
       "total": 37500,
-      "pct": 0.8
-    },
-    {
-      "cidade": "Brasilia",
-      "uf": "DF",
-      "qtde": 1,
-      "total": 36500,
       "pct": 0.8
     },
     {
@@ -602,7 +686,7 @@
       "uf": "SP",
       "qtde": 1,
       "total": 35000,
-      "pct": 0.7
+      "pct": 0.8
     },
     {
       "cidade": "Araras",
@@ -612,43 +696,15 @@
       "pct": 0.7
     },
     {
-      "cidade": "Salvador",
-      "uf": "BA",
-      "qtde": 1,
-      "total": 31000,
-      "pct": 0.7
-    },
-    {
       "cidade": "Buritizeiro",
       "uf": "MG",
       "qtde": 1,
       "total": 30500,
-      "pct": 0.6
-    },
-    {
-      "cidade": "Contenda",
-      "uf": "PR",
-      "qtde": 1,
-      "total": 29900,
-      "pct": 0.6
+      "pct": 0.7
     },
     {
       "cidade": "Foz do Iguaçu",
       "uf": "PR",
-      "qtde": 1,
-      "total": 29000,
-      "pct": 0.6
-    },
-    {
-      "cidade": "Bauru",
-      "uf": "SP",
-      "qtde": 1,
-      "total": 29000,
-      "pct": 0.6
-    },
-    {
-      "cidade": "Sinop",
-      "uf": "MT",
       "qtde": 1,
       "total": 29000,
       "pct": 0.6
@@ -661,17 +717,17 @@
       "pct": 0.6
     },
     {
-      "cidade": "Angra dos Reis",
-      "uf": "RJ",
-      "qtde": 1,
-      "total": 28600,
-      "pct": 0.6
-    },
-    {
       "cidade": "Congonhas",
       "uf": "MG",
       "qtde": 1,
       "total": 28000,
+      "pct": 0.6
+    },
+    {
+      "cidade": "Extrema",
+      "uf": "MG",
+      "qtde": 2,
+      "total": 27140,
       "pct": 0.6
     },
     {
@@ -680,6 +736,27 @@
       "qtde": 1,
       "total": 26000,
       "pct": 0.6
+    },
+    {
+      "cidade": "Pocos de Caldas",
+      "uf": "MG",
+      "qtde": 1,
+      "total": 26000,
+      "pct": 0.6
+    },
+    {
+      "cidade": "São Carlos",
+      "uf": "SC",
+      "qtde": 3,
+      "total": 25890,
+      "pct": 0.6
+    },
+    {
+      "cidade": "São Bernardo do Campo",
+      "uf": "SP",
+      "qtde": 2,
+      "total": 25200,
+      "pct": 0.5
     },
     {
       "cidade": "Campo Grande",
@@ -693,13 +770,6 @@
       "uf": "SP",
       "qtde": 1,
       "total": 24500,
-      "pct": 0.5
-    },
-    {
-      "cidade": "São Carlos",
-      "uf": "SC",
-      "qtde": 2,
-      "total": 21990,
       "pct": 0.5
     },
     {
@@ -724,13 +794,6 @@
       "pct": 0.4
     },
     {
-      "cidade": "Mauá",
-      "uf": "SP",
-      "qtde": 1,
-      "total": 17000,
-      "pct": 0.4
-    },
-    {
       "cidade": "Cotia",
       "uf": "SP",
       "qtde": 2,
@@ -738,11 +801,11 @@
       "pct": 0.3
     },
     {
-      "cidade": "Indaiatuba",
+      "cidade": "Hortolandia",
       "uf": "SP",
       "qtde": 1,
-      "total": 12500,
-      "pct": 0.3
+      "total": 9450,
+      "pct": 0.2
     },
     {
       "cidade": "Diadema",
@@ -750,13 +813,6 @@
       "qtde": 1,
       "total": 8700,
       "pct": 0.2
-    },
-    {
-      "cidade": "São Caetano do Sul",
-      "uf": "SP",
-      "qtde": 1,
-      "total": 6500,
-      "pct": 0.1
     },
     {
       "cidade": "Mairiporã",
