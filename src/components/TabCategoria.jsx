@@ -31,8 +31,8 @@ export default function TabCategoria({ categorias, vendedorCategoria }) {
                     >
                       {v > 0 ? (
                         <>
-                          <div className="heat-val">{Math.round(v / 1000)}</div>
-                          <div className="heat-qty">{row.qtds[i]} un</div>
+                          <div className="heat-primary">{row.qtds[i]} un</div>
+                          <div className="heat-secondary">{Math.round(v / 1000)}</div>
                         </>
                       ) : '—'}
                     </td>
